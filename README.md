@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome books list using Java Script!
+# Math magicans
 
 In this project, I set up a React single pag app(SPA) and make a calculator with it that will then be used in the math magican project.
 
