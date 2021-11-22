@@ -20,7 +20,12 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === '%') {
-    return one.mod(two).toString();
+    try {
+      return one.mod(two).toString();
+    } catch (err) {
+      return "can't use modulus with 0.";
+    }
+    
   }
   throw Error(`Unknown operation '${operation}'`);
 }
