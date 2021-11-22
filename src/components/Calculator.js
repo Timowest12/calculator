@@ -68,7 +68,7 @@ export class Calculator extends Component {
           </div>
           <div className="row row5">
             <div onClick={clickbutton('0')} className="key key1 flex2">0</div>
-            <div onClick={clickbutton('1')} className="key key2 flex1">1</div>
+            <div onClick={clickbutton('.')} className="key key2 flex1">.</div>
             <div onClick={clickbutton('=')}  className="key key3 flex1 orange">=</div>
           </div>
         </div>
