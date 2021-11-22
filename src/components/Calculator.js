@@ -18,17 +18,17 @@ export class Calculator extends Component {
       this.setState({
         calcoutput: returnobj.next
       })
-      if (returnobj.next == null && returnobj.operation == null) {
+      if (returnobj.next === null && returnobj.operation === null) {
         this.setState({
           calcoutput: returnobj.total
         })
       }
-      if (returnobj.next == null && returnobj.operation != null) {
+      if (returnobj.next === null && returnobj.operation !== null) {
         this.setState({
           calcoutput: returnobj.operation
         })
       }
-      if (inp == 'ac') {
+      if (inp === 'ac') {
         this.setState({
           calcobj:{},
           calcoutput:0
