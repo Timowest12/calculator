@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import calculate from "../logic/calculate";
-import operate from "../logic/operate";
 
 export class Calculator extends Component {
   
@@ -11,10 +10,10 @@ export class Calculator extends Component {
   
   render() {
     const clickbutton = (inp) => (event) => {     
-      //console.log(calculate({},this.state.calcobj))
       let returnobj = calculate(this.state.calcobj,inp);
-      this.state.calcobj = returnobj;
-      //this.state.calcoutput = 10;
+      this.setState({
+        calcobj: returnobj
+      })
       this.setState({
         calcoutput: returnobj.next
       })
