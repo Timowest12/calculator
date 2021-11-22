@@ -28,7 +28,13 @@ export class Calculator extends Component {
           calcoutput: returnobj.operation
         })
       }
-      console.log(this.state.calcobj)
+      if (inp == 'ac') {
+        this.setState({
+          calcobj:{},
+          calcoutput:0
+        })
+        
+      }
   }
     return (
       <div className="calculatorcontainer">
@@ -40,8 +46,8 @@ export class Calculator extends Component {
           <div className="row row1">
             <div onClick={clickbutton('ac')} className="key key1">ac</div>
             <div onClick={clickbutton('+/-')} className="key key2">+/-</div>
-            <div onClick={clickbutton('÷')} className="key key3">÷</div>
-            <div onClick={clickbutton('/')} className="key key4 orange">/</div>
+            <div onClick={clickbutton('%')} className="key key4">%</div>
+            <div onClick={clickbutton('÷')} className="key key3 orange">÷</div>
           </div>
           <div className="row row2">
             <div onClick={clickbutton('7')} className="key key1">7</div>
