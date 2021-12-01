@@ -1,6 +1,6 @@
 import TestRenderer from 'react-test-renderer';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Calculator from '../components/Calculator';
+import Calculator from '../components/CalculatorHooks';
 import Header from '../components/Header';
 import Quote from '../components/Quote';
 

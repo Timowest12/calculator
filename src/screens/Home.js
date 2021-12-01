@@ -1,5 +1,4 @@
 import React from 'react'
-import Calculator from '../components/Calculator'
 import Header from '../components/Header'
 import { Welcome } from '../components/Welcome'
 
