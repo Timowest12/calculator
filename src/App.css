@@ -51,3 +51,31 @@
 .flex2 {
   flex: 2 1 0%;
 }
+
+.navitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+}
+
+.navitem {
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.calcscreen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.screen {
+  padding: 30px;
+}
