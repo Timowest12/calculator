@@ -6,7 +6,7 @@ const Calculate = () => {
     return (
         <div>
             <Header />
-        <div class='screen calcscreen'>
+        <div className='screen calcscreen'>
             <div className="left">
                 <h1>Let's do some math!</h1>
             </div>

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Header() {
     return (
-        <header class='nav'>
+        <header className='nav'>
             <h1>Math Magicans</h1>
             <ul className="navitems">
            

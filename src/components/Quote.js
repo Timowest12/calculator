@@ -2,7 +2,7 @@ import React from 'react'
 
 const quote = () => {
     return (
-        <div class='screen'>
+        <div className='screen'>
             <h1>“mathematics is not about numbers, equations, computations or algorithms; it’s about understanding.”</h1>
         </div>
     )
