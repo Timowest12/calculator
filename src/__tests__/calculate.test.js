@@ -42,7 +42,7 @@ describe('calculator tests ', () => {
     endres = calculate(endres, '-');
     endres = calculate(endres, '3');
     endres = calculate(endres, 'AC');
-    expect(endres.total).toBe(null);
+    expect(endres.next).toBe(null);
   });
   test('test divide by 0', () => {
     let endres = calculate(obj, '12');
@@ -50,5 +50,15 @@ describe('calculator tests ', () => {
     endres = calculate(endres, '0');
     endres = calculate(endres, '=');
     expect(endres.total).toEqual(`Can't divide by 0.`);
+  });
+  test('test AC button to set next to 0', () => {
+    let acobj = { total: null, next: null, operation: null };
+    let endres = calculate(acobj, '5');
+   endres = calculate(endres, 'x');
+   endres = calculate(endres, '10');
+   endres = calculate(endres, '=');
+   endres = calculate(endres, 'AC');
+    //console.log(endres)
+    expect(endres.next).toEqual(null);
   });
 });

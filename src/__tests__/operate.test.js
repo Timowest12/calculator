@@ -23,5 +23,10 @@ describe('testing operations', () => {
   test('test divide by zero', () => {
     expect(operate(10, 0, '÷')).toBe(`Can't divide by 0.`);
   });
+  test('test correct number is outputted', () => {
+    const numb1 = 22;
+    const numb2 = 12
+    expect(operate(numb1, numb2, 'x')).toBe('264');
+  });
 
 });
