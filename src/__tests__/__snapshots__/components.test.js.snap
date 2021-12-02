@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots calculator screenshot 1`] = `
+<div
+  className="calculatorcontainer"
+>
+  <div
+    className="outputbar"
+  >
+    <span
+      className="outputinp"
+    >
+      0
+    </span>
+  </div>
+  <div
+    className="keys"
+  >
+    <div
+      className="row row1"
+    >
+      <div
+        className="key key1"
+        onClick={[Function]}
+      >
+        ac
+      </div>
+      <div
+        className="key key2"
+        onClick={[Function]}
+      >
+        +/-
+      </div>
+      <div
+        className="key key4"
+        onClick={[Function]}
+      >
+        %
+      </div>
+      <div
+        className="key key3 orange"
+        onClick={[Function]}
+      >
+        ÷
+      </div>
+    </div>
+    <div
+      className="row row2"
+    >
+      <div
+        className="key key1"
+        onClick={[Function]}
+      >
+        7
+      </div>
+      <div
+        className="key key2"
+        onClick={[Function]}
+      >
+        8
+      </div>
+      <div
+        className="key key3"
+        onClick={[Function]}
+      >
+        9
+      </div>
+      <div
+        className="key key4 orange"
+        onClick={[Function]}
+      >
+        x
+      </div>
+    </div>
+    <div
+      className="row row3"
+    >
+      <div
+        className="key key1"
+        onClick={[Function]}
+      >
+        4
+      </div>
+      <div
+        className="key key2"
+        onClick={[Function]}
+      >
+        5
+      </div>
+      <div
+        className="key key3"
+        onClick={[Function]}
+      >
+        6
+      </div>
+      <div
+        className="key key4 orange"
+        onClick={[Function]}
+      >
+        -
+      </div>
+    </div>
+    <div
+      className="row row4"
+    >
+      <div
+        className="key key1"
+        onClick={[Function]}
+      >
+        1
+      </div>
+      <div
+        className="key key2"
+        onClick={[Function]}
+      >
+        2
+      </div>
+      <div
+        className="key key3"
+        onClick={[Function]}
+      >
+        3
+      </div>
+      <div
+        className="key key4 orange"
+        onClick={[Function]}
+      >
+        +
+      </div>
+    </div>
+    <div
+      className="row row5"
+    >
+      <div
+        className="key key1 flex2"
+        onClick={[Function]}
+      >
+        0
+      </div>
+      <div
+        className="key key2 flex1"
+        onClick={[Function]}
+      >
+        .
+      </div>
+      <div
+        className="key key3 flex1 orange"
+        onClick={[Function]}
+      >
+        =
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test screenshots header screenshot 1`] = `
+<header
+  className="nav"
+>
+  <h1>
+    Math Magicans
+  </h1>
+  <ul
+    className="navitems"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <li
+        className="navitem"
+      >
+        home
+      </li>
+    </a>
+    <a
+      href="/caculator"
+      onClick={[Function]}
+    >
+      <li
+        className="navitem"
+      >
+        calculator
+      </li>
+    </a>
+    <a
+      href="/quote"
+      onClick={[Function]}
+    >
+      <li
+        className="navitem"
+      >
+        quote
+      </li>
+    </a>
+  </ul>
+</header>
+`;
+
+exports[`test screenshots quote screenshot 1`] = `
+<div
+  className="screen"
+>
+  <h1>
+    “mathematics is not about numbers, equations, computations or algorithms; it’s about understanding.”
+  </h1>
+</div>
+`;

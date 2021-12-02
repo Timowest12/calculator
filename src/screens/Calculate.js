@@ -1,5 +1,5 @@
 import React from 'react'
-import Calculator from '../components/Calculator'
+import Calculator from '../components/CalculatorHooks'
 import Header from '../components/Header'
 
 const Calculate = () => {
