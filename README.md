@@ -34,6 +34,14 @@ run npm start to launch project on local server
 
 ![Timo's GitHub stats](https://github-readme-stats.vercel.app/api?username=Timowest12&count_private=true&theme=dark&show_icons=true)
 
+👤 **Ellis**
+
+- Location: Zambia
+- GitHub: [@mwnanawabangona](https://github.com/mwanawabangona)
+- Twitter: [@Ellis_aah](https://twitter.com/Ellis-aah)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+
+
 ## Acknowledgments
 
 - Microverse
