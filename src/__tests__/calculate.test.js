@@ -37,4 +37,18 @@ describe('calculator tests ', () => {
     endres = calculate(endres, '=');
     expect(endres.total).toBe('1');
   });
+  test('test AC', () => {
+    let endres = calculate(obj, '5');
+    endres = calculate(endres, '-');
+    endres = calculate(endres, '3');
+    endres = calculate(endres, 'AC');
+    expect(endres.total).toBe(null);
+  });
+  test('test divide by 0', () => {
+    let endres = calculate(obj, '12');
+    endres = calculate(endres, '÷');
+    endres = calculate(endres, '0');
+    endres = calculate(endres, '=');
+    expect(endres.total).toEqual(`Can't divide by 0.`);
+  });
 });

@@ -17,4 +17,11 @@ describe('testing operations', () => {
   test('test modules', () => {
     expect(operate(10, 3, '%')).toBe('1');
   });
+  test('test zero modulus', () => {
+    expect(operate(10, 0, '%')).toBe(`can't use modulus with 0.`);
+  });
+  test('test divide by zero', () => {
+    expect(operate(10, 0, '÷')).toBe(`Can't divide by 0.`);
+  });
+
 });
