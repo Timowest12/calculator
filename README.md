@@ -49,3 +49,8 @@ run npm start to launch project on local server
 ## 📝 License
 
 This project is [MIT](./MIT) licensed.
+
+## deployment
+
+netlify: https://gallant-bhaskara-7f4366.netlify.app/
+heroku: https://calculator-math-magicans.herokuapp.com/
